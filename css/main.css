@@ -185,7 +185,7 @@ th {
 }
 body {
   position: relative;
-  font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 14px;
   line-height: 2;
   color: #555;
@@ -216,7 +216,7 @@ h6 {
   padding: 0;
   font-weight: bold;
   line-height: 1.5;
-  font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 h2,
 h3,
@@ -497,8 +497,8 @@ pre,
   margin: 20px 0;
   padding: 15px;
   font-size: 13px;
-  color: $highlight-foreground;
-  background: $highlight-background;
+  color: #ccc;
+  background: #2d2d2d;
   line-height: 1.6;
 }
 pre,
@@ -515,7 +515,7 @@ code {
 }
 pre code {
   padding: 0;
-  color: $highlight-foreground;
+  color: #ccc;
   background: none;
   text-shadow: none;
 }
@@ -535,7 +535,7 @@ pre code {
 }
 .highlight figcaption {
   font-size: 1em;
-  color: $highlight-foreground;
+  color: #ccc;
   line-height: 1em;
   margin-bottom: 1em;
 }
@@ -549,10 +549,10 @@ pre code {
 }
 .highlight figcaption a {
   float: right;
-  color: $highlight-foreground;
+  color: #ccc;
 }
 .highlight figcaption a:hover {
-  border-bottom-color: $highlight-foreground;
+  border-bottom-color: #ccc;
 }
 .highlight .gutter pre {
   color: #666;
@@ -569,7 +569,7 @@ pre code {
   border: none;
 }
 pre .comment {
-  color: $highlight-comment;
+  color: #999;
 }
 pre .variable,
 pre .attribute,
@@ -583,7 +583,7 @@ pre .html .doctype,
 pre .css .id,
 pre .css .class,
 pre .css .pseudo {
-  color: $highlight-red;
+  color: #f2777a;
 }
 pre .number,
 pre .preprocessor,
@@ -592,7 +592,7 @@ pre .literal,
 pre .params,
 pre .constant,
 pre .command {
-  color: $highlight-orange;
+  color: #f99157;
 }
 pre .ruby .class .title,
 pre .css .rules .attribute,
@@ -605,11 +605,11 @@ pre .xml .cdata,
 pre .special,
 pre .number,
 pre .formula {
-  color: $highlight-green;
+  color: #9c9;
 }
 pre .title,
 pre .css .hexcolor {
-  color: $highlight-aqua;
+  color: #6cc;
 }
 pre .function,
 pre .python .decorator,
@@ -619,11 +619,11 @@ pre .ruby .title .keyword,
 pre .perl .sub,
 pre .javascript .title,
 pre .coffeescript .title {
-  color: $highlight-blue;
+  color: #69c;
 }
 pre .keyword,
 pre .javascript .function {
-  color: $highlight-purple;
+  color: #c9c;
 }
 .full-image.full-image.full-image {
   border: none;
@@ -910,7 +910,7 @@ pre .javascript .function {
   line-height: 36px;
   font-size: 20px;
   font-weight: normal;
-  font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 .site-subtitle {
   margin-top: 10px;
@@ -998,7 +998,7 @@ pre .javascript .function {
   opacity: 0;
 }
 .post-body {
-  font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 @media (max-width: 767px) {
   .post-body {
@@ -1263,7 +1263,7 @@ pre .javascript .function {
 .posts-expand .post-meta {
   margin: 3px 0 60px 0;
   color: #999;
-  font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 12px;
   text-align: center;
 }
@@ -1548,7 +1548,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #6afcff;
+  background: #ffffc6;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2043,6 +2043,13 @@ a.search-result {
 .site-pv .busuanzi-value,
 .page-pv .busuanzi-value {
   margin: 0 5px;
+}
+.site-uv {
+  margin-right: 10px;
+}
+.site-uv::after {
+  content: "|";
+  padding-left: 10px;
 }
 .use-motion .post {
   opacity: 0;
