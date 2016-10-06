@@ -4,9 +4,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://cttin.github.io/"/>
+  <link href="http://yoursite.com/"/>
   <updated>2016-10-02T06:19:00.548Z</updated>
-  <id>http://cttin.github.io/</id>
+  <id>http://yoursite.com/</id>
   
   <author>
     <name>Christinaaaaaaaa</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://cttin.github.io/2016/10/02/hello-world/"/>
-    <id>http://cttin.github.io/2016/10/02/hello-world/</id>
+    <link href="http://yoursite.com/2016/10/02/hello-world/"/>
+    <id>http://yoursite.com/2016/10/02/hello-world/</id>
     <published>2016-10-02T06:19:00.541Z</published>
     <updated>2016-10-02T06:19:00.548Z</updated>
     
