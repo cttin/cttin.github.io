@@ -1566,7 +1566,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #e55788;
+  background: #ffc696;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2137,7 +2137,7 @@ body {
 /* 当内容高度大于图片高度时，背景图像的位置相对于viewport固定 */
   background-attachment: fixed;
 /* 让背景图基于容器大小伸缩 */
-  background-size: cover;
+  background-size: contain;
 }
 @media (max-width: 767px) {
   .header-inner,
