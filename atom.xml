@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Cttin&#39;s Blog</title>
   
-  <link href="/atom.xml" rel="self"/>
+  <link href="/blog/atom.xml" rel="self"/>
   
-  <link href="http://cttin.github.io/"/>
+  <link href="http://yoursite.com/blog/"/>
   <updated>2016-10-02T06:19:00.548Z</updated>
-  <id>http://cttin.github.io/</id>
+  <id>http://yoursite.com/blog/</id>
   
   <author>
     <name>Christinaaaaaaaa</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://cttin.github.io/2016/10/02/hello-world/"/>
-    <id>http://cttin.github.io/2016/10/02/hello-world/</id>
+    <link href="http://yoursite.com/blog/2016/10/02/hello-world/"/>
+    <id>http://yoursite.com/blog/2016/10/02/hello-world/</id>
     <published>2016-10-02T06:19:00.541Z</published>
     <updated>2016-10-02T06:19:00.548Z</updated>
     
