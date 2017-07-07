@@ -1,3 +1,3 @@
-# cttin.github.io
-### --About Blog
+# blog
+### --Learning Process Record
 
